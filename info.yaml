@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        ""      # Project title
-  author:       ""      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  title:        "Virdant"      # Project title
+  author:       "Michael Maloney"      # Your name
+  discord:      "catpunk_"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "A Hardware Description Language"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -22,8 +22,8 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: ""
-  ui[1]: ""
+  ui[0]: "reset"
+  ui[1]: "led"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
